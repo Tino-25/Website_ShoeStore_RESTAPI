@@ -1,0 +1,201 @@
+.admin_main{
+
+}
+
+.admin_left{
+    width: var(--admin_width--left);
+    overflow-y: auto;
+    height: calc(100% - 0px);
+    position: fixed;
+    background-color: #2A3F54;
+}
+
+.left_head{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    color: var(--admin-white-color);
+}
+
+.left_head img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.left_head__text{
+    padding-left: 8px;
+}
+
+.left_head__text span{
+    font-weight: 700;
+    display: inline-block;
+}   
+
+.left_head__text p{
+    font-size: 14px;
+    letter-spacing: -0.9px;
+    margin-bottom: 0;
+    transform: translateY(-5px);
+}
+
+.left_body{
+    padding: 20px 0;
+}
+
+.nav-list{
+    margin-bottom: 0;
+    padding-left: 0;
+    color: var(--admin-white-color);
+}
+
+.nav-list__item{
+    padding: 0px 12px 0px 12px;
+    border-top: 1px solid var(--admin-gray-opacity-color);
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.6;
+}
+
+.nav-list__item:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.nav-list__item:last-child{
+    border-bottom: 1px solid var(--admin-gray-opacity-color);
+}
+
+.nav-list__item i {
+    line-height: 60px;
+}
+
+.nav-list__item a{
+    display: block;
+    color: inherit;
+    width: 100%;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+
+/* Scrollbar layout left - của thẻ div => nếu như v ::-webkit-scrollbar thì là của cả trang web*/
+div::-webkit-scrollbar {
+    width: 16px;
+}
+div::-webkit-scrollbar-thumb {
+    background-color: rgba(38,185,154,.88);
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+/* end scroll của thẻ div*/
+
+.admin_right{
+    margin-left: var(--admin_width--left);
+    width: var(--admin_width--right);
+}
+
+.right_head{
+    border-bottom: 1px solid var(--admin-gray-opacity-color);
+    text-align: right;
+}
+
+.right_head__content{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0 20px;
+    float: right;
+}
+
+.right_head--icon-bell{
+    font-size: 24px;
+    line-height: 70px;
+}
+
+
+.right_head__content img{
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+
+.right_head__content h6{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+
+.right_head__content:hover h6{
+    color: var(--admin-primary-color);
+    cursor: pointer;
+}
+
+.right_head__content:hover img{
+    transform: scale(1.1);
+}
+
+.right_body{
+    padding: 45px 0;
+}
+
+.add-user{
+    margin: 0 200px;
+}
+
+.btn{
+    margin: 5px 10px;
+}
+
+.img-showList{
+    max-width: 120px;
+    border-radius: 10px;
+}
+
+/*modal image*/
+.listImage__wrap{
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.listImage__wrap img{
+    height: 100px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+.width-20{
+    width: 20%;
+}
+
+.image_item{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+
+.ismain{
+    background-color: darkred;
+    color: white;
+}
+
+/*dashboard*/
+.col{
+    background-color: lightgray;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.col:hover{
+    transform: translateY(-5px);
+    box-shadow: 1px 1px 6px rgba(1, 1, 1, 0.5);
+}

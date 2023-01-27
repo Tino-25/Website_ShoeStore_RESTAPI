@@ -1,0 +1,37 @@
+#main_order{
+    font-size: 14px;
+}
+
+#body_pay{
+    margin: 45px 0;
+}
+
+.body-content{
+}
+
+.body-content__top h2{
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.form_action input{
+    font-size: 14px;
+    padding: 18px 10px;
+}
+
+.form__btn{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+    padding: 6px 26px;
+}
+
+.table{
+    margin-top: 26px;
+}
+
+tfoot{
+    font-weight: bold;
+}
+

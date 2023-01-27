@@ -1,0 +1,444 @@
+#body_cuahang{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap{
+    width: 90%;
+}
+
+.cuahang__subnav{
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
+.subnav__header__text{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 16px 0 0 16px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subnav__list{
+    padding: 0px;
+}
+
+.subnav__list-item{
+    margin-top: 6px;
+}
+
+.subnav__list-item__text{
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.subnav__list-item__btn--wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subnav__list-item__btn{
+    margin-top: 10px;
+    display: inline-block;
+    background-color: var(--primary-color);
+    padding: 3px 23px;
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 10px;
+    margin: 25px 0 20px 0;
+}
+
+.subnav__filter-colorsize{
+    margin-top: 10px;
+}
+
+.subnav__list-item__btn:hover{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.subnav__list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 14px;
+    padding: 8px 16px 0px 16px;
+}
+
+.filter-colorsize{
+    border: 1px solid gray;
+    padding: 2px 10px;
+    width: 100%;
+}
+
+.subnav__filter-price__list{
+    list-style: none;
+    padding: 10px 0 10px 12px;
+    margin: 0;
+}
+
+.sufmbnav__list-item__text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.subnav__filter-price__list-item{
+    font-size: 12px;
+}
+
+.subnav__filter-price__list-item label{
+    transform: translateY(-1px);
+    padding-left: 4px;
+}
+
+/* content */
+/* header */
+.cuahang__product__header{
+    height: 60px;
+    width: 100%;
+    padding: 12px 22px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.cuahang__product__header__text{
+    font-size: 14px;;
+    margin-right: 12px;
+}
+
+.cuahang__product__header__btn{
+    background-color: var(--white-color);
+    font-size: 14px;
+    margin: 8px;
+    padding: 8px 12px;
+    color: var(--black-color);
+}
+
+.cuahang__product__header__btn.active{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.cuahang__product__header__btn:hover{
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+
+.cuahang__product__header__btn--wrap{
+    position: relative;
+    min-width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuahang__product__header__btn--wrap i{
+
+}
+
+.cuahang__product__header__btn--wrap:hover .filter__sort{
+    display: block;
+}
+
+.filter__sort{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    border-top: 1px solid lightgray;
+    min-width: 200px;
+    background-color: var(--white-color);
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.05);
+    display: none;
+}
+
+.filter__sort-item{
+    padding: 4px 8px 0 8px;
+}
+
+.filter__sort-item a:hover{
+    color: var(--primary-color);
+}
+
+.filter__sort-item a{
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+
+.devide__page{
+    position: absolute;
+    right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.devide__page__text{
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.devide__page__text--page{
+    color: var(--primary-color);
+}
+
+.devide__page__btn{
+    display: flex;
+}
+
+.devide__page__btn__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.devide__page__btn__item.active{
+    opacity: 1;
+}
+
+.devide__page__btn__item{
+    opacity: 0.4;
+}
+
+.devide__page__btn--left, .devide__page__btn--right{
+    width: 36px;
+    height: 36px;
+    background-color: var(--white-color);
+    margin: 0 2px;
+}
+
+/* product */
+.cuahang_show-product__item{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    padding: 0 5px;
+    margin: 8px 0;
+}
+
+.cuahang_show-product__item .size-color{
+    font-size: 11px; 
+    font-weight: 500px; 
+    font-style: italic; 
+    color: rgba(0, 0, 0, 0.5); 
+    margin-top: 8px;
+}
+
+.cuahang_show-product__item:hover{
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.cuahang_show-product__item .image__wrap{
+    height: 120px;
+    line-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuahang_show-product__item__img{
+    width: auto;
+    max-height: 120px;
+}
+
+.cuahang_show-product__item__name{
+    font-size: 14px;
+    margin: 5px 0 0 0;
+    color: var(--primary-color);
+    font-weight: 700;
+    text-align: center;
+}
+
+.cuahang_show-product__item__name__price{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.cuahang_show-product__item__name--old{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.cuahang_show-product__item__name--curent{
+
+}
+
+.cuahang_show-product__item__name__btn{
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    padding-bottom: 16px;
+}
+
+.cuahang_show-product__item__name__btn a{
+    color: var(--white-color);
+    width: 97px;
+    background-color: var(--primary-color);
+    height: 26px;
+    border-radius:20px;
+    line-height: 24px;
+}
+
+.cuahang_show-product__item__name__btn a:hover{
+    text-decoration: none;
+}
+
+/* phân trang */
+
+.cuahang_product__paging--wrap{
+    background-color: var(--white-color);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.cuahang_product__paging{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cuahang_product__paging__btn-left, .cuahang_product__paging__btn-right{
+    background-color: var(--white-color);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: 900;
+    color: var(--black-color);
+}
+
+.cuahang_product__paging__btn-left:hover, 
+.cuahang_product__paging__btn-right:hover{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+
+.cuahang_product__paging-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cuahang_product__paging-item{
+    margin: 0 30px;
+}
+
+.cuahang_product__paging-item.active a{
+    color: var(--primary-color);
+}
+
+.cuahang_product__paging-item a{
+    color: var(--black-color);
+    font-size: 20px;
+}
+
+
+.suggest-size{
+    border: none;
+    outline: none;
+}
+
+
+
+
+/*modal image*/
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modalImg {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modalImg-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modalImg-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modalImg-content {
+    width: 100%;
+  }
+}

@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* Common */
+.color-white{
+	color: white;
+	font-size: 12px;
+	opacity: 0.7;
+}
+
+
+.wrap-register{
+	background-image: url("../img/background_login.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	flex-direction: column;
+}
+
+.register h2{
+	margin-bottom: 20px;
+}
+
+.wrap-register .formRegister{
+	color: white;
+	background-color: rgba(255, 100, 255, 0.6);
+	padding: 20px 50px 50px 50px;
+	border-radius: 10px;
+}
+
+.formRegister input{
+	margin-bottom: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid pink;
+	padding: 10px;
+	outline: none;
+}
+
+
+.button_login__wrap{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}

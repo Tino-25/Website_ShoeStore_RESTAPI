@@ -1,0 +1,264 @@
+
+#body_chitietsp{
+    padding: 45px 0;
+}
+.chitietsp__layout-right{
+}
+
+.chitietsp__layout-right__content{
+    margin-bottom: 30px;
+}
+
+.chitietsp__layout-right__content__top{
+    background-color: var(--background-color);
+    padding: 10px 20px;
+}
+
+.chitietsp__layout-right__content__top h4{
+    margin-bottom: 0;
+}
+
+.chitietsp__layout-right__content__body{
+    
+}
+
+.chitietsp__layout-right__content__body__list{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    border: 1px solid var(--border-color);
+}
+
+.chitietsp__layout-right__content__body__item{
+    padding-left: 10px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.chitietsp__layout-right__content__body__item i {
+    font-size: 10px;
+    color: #27ff00;
+}
+
+.similar-product{
+
+}
+
+.similar-product__top{
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.similar-product__top h3{
+    background-color: var(--primary-color);
+    display: inline-block;
+    padding: 6px 20px;
+    transform: translateY(6px);
+    border-radius: 5px 5px 0 0;
+    color: var(--white-color);
+}
+
+.similar-product__content{
+    margin: 10px 0;
+    display: flex;
+}
+
+.similar-product__img{
+    width: 95px;
+    height: 90px;
+}
+
+.similar-product__content_text{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.similar-product__content_text .name{
+    font-size: 14px;
+}
+
+.similar-product__content_text .price{
+    font-size: 16px;
+    color: var(--primary-color);
+}
+
+.similar-product__content_text .price-old{
+    text-decoration: line-through;
+    font-size: 14px;
+    font-weight: 500;
+    transform: translateY(-10px);
+}
+
+
+/* main */
+
+.chitietsp_layout_main{
+
+}
+
+.chitietsp__img{
+}
+
+.chitietsp__img-main{
+}
+
+.chitietsp__img-main img{
+    width: 100%;
+    max-height: 355px;
+}
+
+.chitietsp__img-mini{
+    text-align: center;
+}
+
+.chitietsp__img-mini img{
+    width: 55px;
+    height: 55px;
+    margin: 10px 2px 0;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.chitietsp_wrap{
+
+}
+
+.chitietsp--item {
+    margin: 20px 0;
+}
+
+.chitietsp_namesp{
+    font-size: 18px;
+}
+
+.chitietsp_status{
+    font-size: 14px;
+}
+
+.chitietsp_status--title{
+
+}
+
+.chitietsp_status--content{
+    font-weight: bold;
+}
+
+
+.chitietsp_price{
+
+}
+
+.chitietsp_price--curent{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+}   
+
+.chitietsp_price--old{
+    text-decoration: line-through;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+}
+
+.chitietsp_quantity{
+    
+}
+
+.chitietsp_quantity input{
+    width: 40px;
+    margin-left: -4px;
+    margin-right: -4px;
+    height: 33px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid var(--border-color);
+    outline: none;
+}
+
+.chitietsp_quantity--plus, .chitietsp_quantity--minus{
+    border: 1px solid var(--border-color);
+    padding: 6px 12px;
+    font-size: 14px;
+    color: var(--black-color);
+    font-weight: bold;
+}
+
+.chitietsp_quantity--plus:hover, 
+.chitietsp_quantity--minus:hover{
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.chitietsp_quantity--plus{
+
+}   
+
+.chitietsp_quantity--minus{
+
+}
+
+.chitietsp_btn{
+    display: flex;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.chitietsp_btn__add-cart{
+    background-color: var(--primary-color);
+    padding: 10px 50px;
+    color: var(--white-color);
+}
+
+.chitietsp_btn__buy-now{
+    background-color: green;
+    padding: 10px 50px;
+    color: var(--white-color);
+}   
+
+.chitietsp_btn__add-cart:hover,
+.chitietsp_btn__buy-now:hover{
+    color: var(--black-color);
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+}
+
+/* Mô tả sản phẩm */
+.chitietsp_describe{
+
+}
+
+.chitietsp_describe__top{
+    border-bottom: 2px solid var(--primary-color);
+    margin-top: 45px;
+}
+
+.chitietsp_describe__top h3{
+    background-color: var(--primary-color);
+    display: inline-block;
+    padding: 6px 20px;
+    transform: translateY(6px);
+    border-radius: 5px 5px 0 0;
+    color: var(--white-color);
+}
+
+.chitietsp_describe__content{
+    font-size: 16px;
+    padding: 10px;
+}
+
+.disaple{
+    opacity: 0.6;
+    position: relative;
+    pointer-events: none;
+}
+
+
+
